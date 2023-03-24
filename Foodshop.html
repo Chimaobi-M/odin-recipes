@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Online Foodshop </title>
+<link href="Foodshop.css" rel="stylesheet">
+</head>
+<body>
+<div class="title"> </div>
+<div class="header">Online</div> <div class="header1"; style="font-size:10px">   Foodshop</div>
+<div class="line"> </div>
+<div class="navigation"> <div class="nav1"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg7bIjD3HKu505kqTuTWQpdrL9GypxqU2-5g&usqp=CAU" 
+				alt="logo" width="15px" height="15px"> </div>
+<a href="#home"> Home  </a>
+<a href="#about">  About  </a>
+<a href="#menu">  Menu  </a>
+<a href="Contact Us.html">  Contact Us  </a>
+</div>
+<div class="half">
+<div class="welcome"> <h3> Welcome to Online Foodshop </h3> </div>
+<div class="nav2">
+<a class="order" href="#order now">  ORDER NOW  </a>
+</div><br>
+<div class="parent">
+<div class="twin" id="twin1"> <a class="twina" href="#prices"> Prices </a></div> 
+<div class="twin" id="twin2"> <a class="twina" href="#specials"> Specials </a></div>
+</div>
+</div><br>
+<div class="mother">
+<div class="feature"> Featured Products</div><br>
+<div class="triple" id="triple1"> <a class="triplea" href="#order now"> order now </a> </div>
+<div class="triple" id="triple2"> <a class="triplea" href="#order now"> order now </a> </div>
+<div class="triple" id="triple3"> <a class="triplea" href="#order now"> order now <a/> </div>
+</div>
+
+
+<div><p class="foot"> Copyright © 2023 Online Foodshop. All rights reserved. </p>
+</div>
+<div class="bottom"> <a href="#home" class="htop"> <u> Back to top </u> <a/> </div>
+<div>
+<p id="demo" class= "learner"> </p>
+</div>
+<script>
+function timer(){
+const date= new Date();
+let h = date.getHours();
+let m = date.getMinutes();
+let s = date.getSeconds();
+let session= "AM";
+if (h=>12) {session= "PM"}
+if (h>12) {h=h-12;}
+if (h==0) {h = 12;}
+h = (h<10)? "0" + h:h;
+m = (m<10)? "0" + m:m;
+s = (s<10)? "0" + s:s;
+let time = h + ":" + m +":" + s + " "+session;
+document.getElementById("demo").innerHTML = time;
+let t = setInterval(function() {timer()}, 1000);
+};
+timer()
+</script>
+</body>
+
+</html>

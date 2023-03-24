@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Contact Us </title>
+<style>
+.h{text-align:center}
+.form{background:grey; text-align:center}
+.type, .phone{margin-right:100px}
+.email, .name{margin-right:150px}
+.member{margin-left:160px}
+.elaborate{margin-right:50px}
+#type, #name, #email, #phone{width:200px}
+#answer{width:200px; height:100px}
+</style>
+</head>
+<body>
+<h2 class="h"> <b> Contact Us </h2>
+<div class="form">
+<form action="/action_page.php">
+<label for="type" class="type"> Type Of Query </label><br>
+<select name="type" id="type">
+<option value="site"> Site related issues </option>
+<option value="private"> Private message </option>
+<option value="error"> Error message ecountered </option><br>
+</select><br>
+<label for="name" class="name"> Name </label><br>
+<input type="text" id="name" name="name" placeholder="enter your name"><br>
+<label for="e-mail" class="email"> E-mail </label><br>
+<input type="text" id="email" name="email" placeholder="enter your e-mail address"><br>
+<label for="phone" class="phone"> Phone Number </label><br>
+<input type="text" id="phone" name="phone" placeholder= "enter your phone number"><br>
+<label for="member" class="member"> Are you a member of Online Foodshop? </label>
+<label for="yes"> Yes </label>
+<input type="radio" id="yes" name="member" value="Yes">
+<label for="no"> No </label>
+<input type="radio" id="no" name="member" value="No"><br>
+<label for="elaborate" class="elaborate"> Elaborate your answer </label><br>
+<input type="text" id="answer" name="answer"><br>
+<input type="submit" id="submit" value="Submit">
+<input type="submit" id="reset" value="Reset">
+</div>
+</body>
+
+<html>

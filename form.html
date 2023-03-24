@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+form
+</title>
+<style>
+body{background-color:#05c46b;}
+#form1{border:1px solid;
+	margin:120px;
+	padding-left:30px;
+	padding-bottom:30px;
+	background-color:white;
+	font-family: inherit;
+	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5)}
+#submit{width:170px;
+	background-color:green}
+#which{width:170px}
+</style>
+</head>
+<body>
+<div id="form1">
+<h1> Personal Information </h1>
+
+<form action="/action_page.php">
+<label for="name"> <b>Name <b/></label><br>
+<input type="text" id="fname" name="fname" placeholder="enter your name"><br><br>
+<label for="age"> <b>Age </b></label><br>
+<input type="text" id="age" name="age" placeholder="enter your age"><br><br>
+<label for="email" <b> Email </b> </label><br>
+<input type="text" id="email" name="email" placeholder="Enter your email"><br><br>
+<label for= <b>Which option best describes you</b></label><br>
+<select name="which" id="which">
+<option value="student"> Student</option>
+<option value="employed"> Employed</option>
+</select><br><br>
+<label for="would you"> <b>Would you recommend my services to a friend?<b></label><br>
+<input type="radio" id="yes" name="would you" value="Yes">
+<label for="yes">Yes</label><br>
+<input type="radio" id="no" name="would you" value="No">
+<label for="no">No</label><br>
+<input type="radio" id="maybe" name="would you" value="Maybe">
+<label for="maybe">Maybe</label><br><br>
+<label for="preferred"> Select your preferred languages.</label><br>
+<input type="checkbox" id="Html" name="preferred">
+<label for="Html"> Html </label><br>
+<input type="checkbox" id="Python" name="preferred">
+<label for="Python"> Python </label><br>
+<input type="checkbox" id="Css" name="preferred">
+<label for="Css"> Css </label><br>
+<input type="checkbox" id="Javascript" name="preferred">
+<label for="Javascript"> Javascript </label><br><br>
+<label for="any">Any comments or suggestions</label><br>
+<input type="input" id="any" name="any"><br><br>
+<input type="submit" id="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>

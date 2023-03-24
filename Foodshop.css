@@ -1,0 +1,38 @@
+
+.title{border:solid 20px black; background-color:black}
+.header{text-align:center; color:red}
+.header1{text-align:center; border-bottom:solid 1px gray}
+a{text-decoration: none; margin-right:10px; font-size:10px; color:white;}
+a:hover{background-color:red}
+.navigation{text-align:center; border:solid 2px black; background-color:gray;
+border-radius:12px; padding-top:20px;}
+.nav1{margin-top:-20px}
+.half{border:solid 1px; border-radius:0px 0px 0px 70px; background-image:
+url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtff0tUEaAyo_zm3668_HNFSPy41jaQRx0Lg&usqp=CAU");
+ background-repeat:no-repeat; background-position:center; background-size:100% 100%}
+.welcome{text-align:center}
+.order{color:black; background-color:yellow; text-align:center}
+.nav2{text-align:center}
+.parent{text-align:center; margin-left:100px}
+.twin{display:inline-block; border:solid 7px; margin-right:100px; padding-left:70px; padding-right:70px; 
+padding-top:50px; border-radius:20px; background:black}
+.twina{color:black; background-color:yellow}
+#twin1{background-image:url("https://thumbs.dreamstime.com/b/chef-cook-against-dark-background-smiling-hat-36039545.jpg");
+background-position-x:center; background-size:100px 70px; background-repeat:no-repeat;}
+#twin2{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZxZjPf2TiqTfSeFvESWfMvaNuVDsEXjKEpQ&usqp=CAU");
+background-position-x:center; background-repeat:no-repeat; background-size:200px 70px}
+.mother{border-top:solid 1px black; text-align:center}
+.feature{color:red}
+.triple{display:inline-block; border:solid 1px black; padding-top:120px; padding-left:50px; padding-right:50px; margin-right:20px;
+border-radius:10px;}
+#triple1{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9FfTm2jU8ZoQbG6bQDii03r5uQtRkwlLV3w&usqp=CAU");
+background-repeat:no-repeat; background-position:center;}
+#triple2{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAbnXfSq_mFSyRht0YC6cSebDm63tl3UCwrtWTZzJVhqgARMLsX0XDhFPxQMUn9CCbrho&usqp=CAU");
+background-repeat:no-repeat; background-position:center}
+#triple3{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWeTkVwVXJDGzNTxF3cywoAxN9SE5N1RwcGA&usqp=CAU");
+background-repeat:no-repeat; background-position:center}
+.triplea{color:black; background-color:yellow}
+.foot{color:black; text-align:center}
+.bottom{text-align:center}
+.htop{color:black}
+.learner{color:black}
